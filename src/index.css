@@ -1,0 +1,25 @@
+:root {
+    --body_background: rgb(168, 216, 255);
+    --body_color: black;
+    --link_color: navy;
+    --h1_color: linear-gradient(
+        90deg,
+        rgb(0, 0, 0) 0%,
+        rgba(249, 211, 180, 0) 100%
+      );
+}
+
+[data-theme="dark"] {
+    --body_background: #282c34;
+    --body_color: white;
+    --link_color: cyan;
+    --h1_color: linear-gradient(
+        90deg,
+        rgba(249, 211, 180, 1) 0%,
+        rgba(249, 211, 180, 0) 100%
+      );
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}

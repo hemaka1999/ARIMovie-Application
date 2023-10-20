@@ -2,6 +2,8 @@ import {useEffect, useState} from "react";
 
 import MovieCard from "./MovieCard";
 
+import DarkMode from './Components/DarkMode/DarkMode';
+
 import './App.css';
 import SearchIcon from './search.svg';
 
@@ -27,6 +29,7 @@ const App=()=>{
     return (
         <div className="app">
             <h1>ARIMovie</h1>
+            <DarkMode />
 
             <div className="search">
                 <input
