@@ -28,7 +28,6 @@ ARIMovie is built using the following technologies and frameworks:
 - Movie search using the OMDB API.
 - Display movie details, including title, cast, and plot.
 - Customize the application with dark or light mode.
-- [Add more features here]
 
 ## Demonstration
 
