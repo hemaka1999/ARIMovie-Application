@@ -50,6 +50,8 @@ cd arimovie
 # Install dependencies
 npm install
 
+```
+
 ## Usage
 
 To use ARIMovie, follow these steps:
